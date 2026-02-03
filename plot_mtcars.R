@@ -20,4 +20,4 @@ data("mtcars")
 
 ggplot(mtcars,
        aes(x = mpg)) +
- geom_histogram()
+ geom_histogram(binwidth = 3, fill = "orange", color = "black")
