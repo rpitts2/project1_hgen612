@@ -20,6 +20,6 @@ data("mtcars")
 
 ggplot(mtcars,
        aes(x = mpg)) +
- geom_histogram(binwidth = 3, fill = "orange", color = "black") +
+ geom_histogram(binwidth = 3, fill = "grey30", color = "black") +
  theme_classic()  
 
