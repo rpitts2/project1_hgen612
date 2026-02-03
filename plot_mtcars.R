@@ -16,10 +16,11 @@ data("mtcars")
 ?mtcars  # 32 observations, 11 numeric variables
 
 
-# initial plot
+# mtcars plot
 
 ggplot(mtcars,
        aes(x = mpg)) +
  geom_histogram(binwidth = 3, fill = "grey30", color = "black") +
- theme_classic()  
+ theme_classic() +
+ labs(x = "Miles Per Gallon (mpg)", y = "Number of Cars")  
 
